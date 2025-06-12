@@ -13,21 +13,6 @@ body main {
 }
 
 
-.container-full-height {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.content {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100% !important;
-  max-width: 800px;
-}
-
 button, a.btn {
     border-radius: 6px;
     border: 1px solid transparent !important;
@@ -90,29 +75,3 @@ h1.h2 {
 }
 
 
-/********** Wheel Page **********/
-
-.wheel-container {
-    width: 327px;
-    height: 295px;
-    background-image: url('https://cdn.ipsosinteractive.com/deploy/PanelOne/resources/images/revamp/spinning-wheel/bg-wheel-m.webp');
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat; 
-  }
-
-  @media (min-width: 768px) {
-  .wheel-container {
-    width: 798px;
-    height: 386px;
-    background-image: url('https://cdn.ipsosinteractive.com/deploy/PanelOne/resources/images/revamp/spinning-wheel/bg-wheel.webp');
-  }
-}
-
-  .wheel {
-    max-width: 325px;
-    max-height: 325px;
-  }
-
-
-  /********** Results **********/
