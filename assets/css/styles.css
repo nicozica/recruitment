@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Protest+Riot&display=swap');
+
+/********** Common Styles **********/
+
+html, body {
+    font-family: 'Inter', Arial, sans-serif;
+    color: #3A405F !important;
+    height: 100%;
+}
+
+body main {
+    padding-bottom: 0 !important;
+}
+
+
+.container-full-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  max-width: 800px;
+}
+
+button, a.btn {
+    border-radius: 6px;
+    border: 1px solid transparent !important;
+    font-weight: 700 !important;
+    padding: 9px 16px;
+
+}
+
+a.navbar-brand img{
+    width: 150px;
+    height: 59px!;
+}
+
+a.btn-primary {
+    background: #2f469c;
+    font-weight: 700;
+    color: #FFF !important;
+}
+
+a.btn-primary:hover {
+    background: #26387d;
+    color: #FFF !important;
+}
+
+a {
+    font-weight: 700;
+    color: #2f469c !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #4e5aa4 !important;
+}
+
+.h1, h1, .h2, h2, .h3, h3, .h4, .h5, .h6, h4, h5, h6, strong { 
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 700 !important;
+    color: #3A405F !important;
+}
+
+h1.h2 {
+    font-size: 40px !important;
+}
+
+.lead {
+    font-weight: 400 !important;
+}
+
+.fs-7 {
+    font-size: 12px;
+    color: #666;
+}
+
+.text-secondary {
+    color: #84329b !important;
+}
+
+.dotted {
+    border-bottom: 1px dotted #e0e0e0;
+}
+
+
+/********** Wheel Page **********/
+
+.wheel-container {
+    width: 327px;
+    height: 295px;
+    background-image: url('https://cdn.ipsosinteractive.com/deploy/PanelOne/resources/images/revamp/spinning-wheel/bg-wheel-m.webp');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+  @media (min-width: 768px) {
+  .wheel-container {
+    width: 798px;
+    height: 386px;
+    background-image: url('https://cdn.ipsosinteractive.com/deploy/PanelOne/resources/images/revamp/spinning-wheel/bg-wheel.webp');
+  }
+}
+
+  .wheel {
+    max-width: 325px;
+    max-height: 325px;
+  }
+
+
+  /********** Results **********/
