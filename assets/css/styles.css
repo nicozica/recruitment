@@ -53,12 +53,16 @@ a:hover {
     color: #3A405F !important;
 }
 
-h1.h2 {
-    font-size: 40px !important;
+h1 {
+    font-size: 56px !important;
 }
 
 .lead {
     font-weight: 400 !important;
+}
+
+.fs-1 {
+    font-size: 48px;
 }
 
 .fs-7 {
@@ -73,5 +77,10 @@ h1.h2 {
 .dotted {
     border-bottom: 1px dotted #e0e0e0;
 }
+
+.panel {
+    margin: 96px auto
+}
+
 
 
