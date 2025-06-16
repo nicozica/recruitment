@@ -84,3 +84,15 @@ h1 {
 
 
 
+@media (min-width: 992px) { /* lg and up */
+  .with-dotted-divider {
+    border-right: 2px dotted #E0E0E0;
+  }
+}
+
+
+
+
+
+
+
