@@ -90,6 +90,9 @@ h1 {
   }
 }
 
+.dotted-divider-horizontal {
+  border-bottom: 2px dotted #E0E0E0;
+}
 
 
 
