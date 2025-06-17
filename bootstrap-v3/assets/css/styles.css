@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Protest+Riot&display=swap');
+
+/********** Common Styles **********/
+
+html, body {
+    font-family: 'Inter', Arial, sans-serif;
+    color: #767279 !important;
+    height: 100%;
+    font-size: 16px;
+}
+
+body main {
+    padding-bottom: 0 !important;
+}
+
+
+button, a.btn {
+    border-radius: 6px;
+    border: 1px solid transparent !important;
+    font-weight: 700 !important;
+    padding: 9px 16px;
+
+}
+
+a.navbar-brand img{
+    width: 150px;
+    height: 59px!;
+}
+
+a.btn-primary {
+    background: #2f469c;
+    font-weight: 700;
+    color: #FFF !important;
+}
+
+a.btn-primary:hover {
+    background: #26387d;
+    color: #FFF !important;
+}
+
+a {
+    font-weight: 700;
+    color: #2f469c !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #4e5aa4 !important;
+}
+
+.h1, h1, .h2, h2, .h3, h3, .h4, .h5, .h6, h4, h5, h6, strong { 
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 700 !important;
+    color: #3A405F !important;
+}
+
+h1 {
+    font-size: 56px !important;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 8px !important;
+}
+
+.lead {
+    font-weight: 400 !important;
+    color: #767279;
+}
+
+.fs-1 {
+    font-size: 48px;
+}
+
+.fs-7 {
+    font-size: 12px;
+    color: #666;
+}
+
+h3.stat {
+    font-size: 48px;
+    font-weight: 400 !important;
+}
+
+.text-secondary {
+    color: #84329b !important;
+}
+
+.dotted {
+    border-bottom: 1px dotted #e0e0e0;
+}
+
+.panel {
+    margin: 96px auto;
+    border: none;
+    box-shadow: none;
+}
+
+.panel-stats {
+    margin-top: 40px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    padding: 16px 24px 24px 24px;
+}
+
+.media {
+    margin: 0 8px;
+}
+
+.media-left {
+    vertical-align: middle;
+}
+
+img.img-stat {
+    padding-right: 16px;
+    display: inline-block;
+}
+
+
+
+@media (min-width: 992px) { /* lg and up */
+  .with-dotted-divider {
+    border-right: 2px dotted #E0E0E0;
+  }
+}
+
+.dotted-divider-horizontal {
+  border-bottom: 2px dotted #E0E0E0;
+}
+
+
+
+
+
+
